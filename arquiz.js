@@ -332,21 +332,23 @@
             resultsHTML += '</p>';
           }
             
-            resultsHTML += '<div class="topeard"></div>';
+            
           //view results button
           if ( plugin.config.showViewResultsButton ) {
             resultsHTML += '<button class="' + class_viewResultsButton + '">';
             resultsHTML += plugin.config.viewResultsButton_text;
             resultsHTML += '</button>';
           }
-            resultsHTML += '<div class="boteard"></div>';
+            
           //add to DOM
           $element.append( resultsHTML );
   
           //if show view results button
           if ( plugin.config.showViewResultsButton ) {
             //init view results button event
+              resultsHTML += '<div class="topeard"></div>';
             plugin.events.resultsButton();
+              resultsHTML += '<div class="boteard"></div>';
           }
         }
       };
