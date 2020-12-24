@@ -86,8 +86,6 @@
         class_quizScoreRank = "quizScoreRank",
         class_quizScore = "quizScore",
         class_quizScoreMessage = "quizScoreMessage",
-        class_topad = "topad",
-        class_botad = "botad",
         class_viewResultsButton = "viewResults",
         class_showingResults = "showingResults",
   
@@ -348,9 +346,9 @@
           //if show view results button
           if ( plugin.config.showViewResultsButton ) {
             //init view results button event
-              '<div class="topeard"></div>';
+              "test"
             plugin.events.resultsButton();
-              '<div class="boteard"></div>';
+              "test"
           }
         }
       };
