@@ -334,9 +334,9 @@
             
           //view results button
           if ( plugin.config.showViewResultsButton ) {
-            resultsHTML += '<button class="' + class_viewResultsButton + '">';
+            resultsHTML += '<button class="' + class_viewResultsButton + '"><div class="topeard"></div>';
             resultsHTML += plugin.config.viewResultsButton_text;
-            resultsHTML += '</button>';
+            resultsHTML += '<div class="boteard"></div></button>';
           }
 
             
