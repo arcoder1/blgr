@@ -1,7 +1,6 @@
 /*!
  * name    : dlxQuiz jQuery Plugin
  * author  : Chyno Deluxe
-
  * copyright (c) 2016 Chyno Deluxe - http://www.chynodeluxe.com
  * license MIT
  */
