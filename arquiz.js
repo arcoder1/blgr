@@ -38,7 +38,7 @@
           viewResultsButton_text: "عرض النتائج",
           resultsHeader_text: "إليك ما حققته",
           quizScore_text: "لقد قمت بالأجابة علي %totalScore من أصل %totalQuestions من الأسئلة بشكل صحيح",
-          quizScoreMessage_text: "",
+          quizScoreMessage_text: "<div class=''></div>",
           quizScoreRank_text: {
             a: "نتيجة جيده !",
             b: "عمل جيد !",
@@ -338,12 +338,7 @@
             resultsHTML += plugin.config.viewResultsButton_text;
             resultsHTML += '</button>';
           }
-           //view results button
-          if ( plugin.config.showViewResultsButton ) {
-            resultsHTML += '<div class="social-share">';
 
-            resultsHTML += '</div>';
-          } 
             
           //add to DOM
           $element.append( resultsHTML );
