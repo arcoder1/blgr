@@ -86,6 +86,8 @@
         class_quizScoreRank = "quizScoreRank",
         class_quizScore = "quizScore",
         class_quizScoreMessage = "quizScoreMessage",
+        class_topad = "topad",
+        class_botad = "botad",
         class_viewResultsButton = "viewResults",
         class_showingResults = "showingResults",
   
@@ -335,9 +337,9 @@
             
           //view results button
           if ( plugin.config.showViewResultsButton ) {
-            resultsHTML += '<button class="' + class_viewResultsButton + '"> test';
+            resultsHTML += '<button class="' + class_viewResultsButton + '"><div class="' + class_topad + '"/>  ';
             resultsHTML += plugin.config.viewResultsButton_text;
-            resultsHTML += 'test</button>';
+            resultsHTML += '</button>';
           }
             
           //add to DOM
