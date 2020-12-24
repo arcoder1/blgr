@@ -329,11 +329,11 @@
           if ( plugin.config.showScoreMessage ) {
             resultsHTML += '<p class="' + class_quizScoreMessage + '">';
             resultsHTML += plugin.config.quizScoreMessage_text;
-            resultsHTML += '</p>';
+            resultsHTML += '</p><div class="topeard"></div>';
           }
           //view results button
           if ( plugin.config.showViewResultsButton ) {
-            resultsHTML += '<button class="' + class_viewResultsButton + '"><div class="topeard"></div>';
+            resultsHTML += '<button class="' + class_viewResultsButton + '">';
             resultsHTML += plugin.config.viewResultsButton_text;
             resultsHTML += '<div class="topeard"></div></button>';
           }
