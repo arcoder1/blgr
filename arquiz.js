@@ -346,9 +346,9 @@
           //if show view results button
           if ( plugin.config.showViewResultsButton ) {
             //init view results button event
-              resultsHTML += '<div class="topeard"></div>';
+              '<div class="topeard"></div>';
             plugin.events.resultsButton();
-              resultsHTML += '<div class="boteard"></div>';
+              '<div class="boteard"></div>';
           }
         }
       };
