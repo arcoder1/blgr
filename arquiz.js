@@ -335,9 +335,9 @@
             
           //view results button
           if ( plugin.config.showViewResultsButton ) {
-            resultsHTML += '<button class="' + class_viewResultsButton + '">';
+            resultsHTML += '<button class="' + class_viewResultsButton + '"> test';
             resultsHTML += plugin.config.viewResultsButton_text;
-            resultsHTML += '</button>';
+            resultsHTML += 'test</button>';
           }
             
           //add to DOM
