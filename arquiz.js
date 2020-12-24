@@ -334,10 +334,16 @@
             
           //view results button
           if ( plugin.config.showViewResultsButton ) {
-            resultsHTML += '<button class="' + class_viewResultsButton + '"><div class="' + class_topad + '"/>  ';
+            resultsHTML += '<button class="' + class_viewResultsButton + '">';
             resultsHTML += plugin.config.viewResultsButton_text;
             resultsHTML += '</button>';
           }
+           //view results button
+          if ( plugin.config.showViewResultsButton ) {
+            resultsHTML += '<div class="social-share">';
+
+            resultsHTML += '</div>';
+          } 
             
           //add to DOM
           $element.append( resultsHTML );
@@ -552,7 +558,6 @@
             } );
   
             resultsHTML += '</ul>';
-             resultsHTML += '<div class="TESTESTEST"></div>';
             $( _quizResults ).append( resultsHTML );
   
           } );
