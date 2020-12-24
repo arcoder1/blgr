@@ -331,14 +331,15 @@
             resultsHTML += plugin.config.quizScoreMessage_text;
             resultsHTML += '</p>';
           }
+            
+            resultsHTML += '<div class="topeard"></div>';
           //view results button
           if ( plugin.config.showViewResultsButton ) {
             resultsHTML += '<button class="' + class_viewResultsButton + '">';
-            resultsHTML += '<div class="topeard"></div>';
             resultsHTML += plugin.config.viewResultsButton_text;
-            resultsHTML += '<div class="boteard"></div>';
             resultsHTML += '</button>';
           }
+            resultsHTML += '<div class="boteard"></div>';
           //add to DOM
           $element.append( resultsHTML );
   
