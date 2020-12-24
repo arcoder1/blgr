@@ -552,7 +552,7 @@
             } );
   
             resultsHTML += '</ul>';
-  
+             resultsHTML += '<div class="TESTESTEST"></div>';
             $( _quizResults ).append( resultsHTML );
   
           } );
