@@ -33,7 +33,7 @@
           backButton_text: "السؤال السابق",
           nextButton_text: "السؤال التالي",
           completeButton_text: "إنهاء الاختبار",
-          viewResultsButton_text: "عرض النتائج",
+          viewResultsButton_text: "<div class='topeard'></div> عرض النتائج <div class='boteard'></div>",
           resultsHeader_text: "إليك ما حققته",
           quizScore_text: "لقد قمت بالأجابة علي %totalScore من أصل %totalQuestions من الأسئلة بشكل صحيح",
           quizScoreMessage_text: "",
@@ -332,9 +332,9 @@
             
           //view results button
           if ( plugin.config.showViewResultsButton ) {
-            resultsHTML += '<button class="' + class_viewResultsButton + '"><div class="topeard"></div>';
+            resultsHTML += '<button class="' + class_viewResultsButton + '">';
             resultsHTML += plugin.config.viewResultsButton_text;
-            resultsHTML += '<div class="boteard"></div></button>';
+            resultsHTML += '</button>';
           }
 
             
