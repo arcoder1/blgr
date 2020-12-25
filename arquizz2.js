@@ -33,7 +33,7 @@
           backButton_text: "السؤال السابق",
           nextButton_text: "السؤال التالي",
           completeButton_text: "إنهاء الاختبار",
-          viewResultsButton_text: "<div class='topeard'></div> عرض النتائج <div class='boteard'></div>",
+          viewResultsButton_text: " عرض النتائج ",
           resultsHeader_text: "إليك ما حققته",
           quizScore_text: "لقد قمت بالأجابة علي %totalScore من أصل %totalQuestions من الأسئلة بشكل صحيح",
           quizScoreMessage_text: "",
