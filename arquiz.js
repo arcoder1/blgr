@@ -36,7 +36,7 @@
           viewResultsButton_text: "عرض النتائج",
           resultsHeader_text: "إليك ما حققته",
           quizScore_text: "لقد قمت بالأجابة علي %totalScore من أصل %totalQuestions من الأسئلة بشكل صحيح",
-          quizScoreMessage_text: "<div class=''></div>",
+          quizScoreMessage_text: "",
           quizScoreRank_text: {
             a: "نتيجة جيده !",
             b: "عمل جيد !",
